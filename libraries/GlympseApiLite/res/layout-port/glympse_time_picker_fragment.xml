@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/glympse_timer_bg"
+    >
+    <!-- android:fillViewport="true" -->
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:id="@+id/glympse_text_expires"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center_horizontal"
+            android:textSize="22dp"
+            android:singleLine="true"
+            android:ellipsize="start"
+        />
+
+        <com.glympse.android.controls.GTimerView
+            android:id="@+id/glympse_timer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:maxWidth="280dp"
+            android:maxHeight="280dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:clickable="true"
+        />
+
+        <Button
+            android:id="@+id/glympse_button_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:minWidth="160dp"
+            android:singleLine="true"
+            android:text="@string/glympse_time_picker_button"
+            style="@style/GlympseButton.Orange"
+        />
+
+    </LinearLayout>
+
+</ScrollView>

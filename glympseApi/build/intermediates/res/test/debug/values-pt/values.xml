@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/glympseApi/build/intermediates/bundles/debug/res/values-pt/values.xml -->
+    <eat-comment/>
+    <plurals name="common_days_1d">
+<item quantity="one">%1$d dia</item>
+<item quantity="other">%1$d dias</item>
+</plurals>
+    <string name="arrived_at_destination">Glympse: Você chegou ao seu destino</string>
+    <string name="click_to_expire">Clique aqui para encerrar o seu Glympse</string>
+    <string name="click_to_reply">Clique aqui para responder...</string>
+    <string name="click_to_view">Clique aqui para visualizar...</string>
+    <string name="glympse_was_received">Você recebeu um Glympse</string>
+    <string name="group_invitation_was_received">Você foi convidado para um grupo do Glympse</string>
+    <string name="low_battey_warning">Pausado devido à bateria fraca, clique para continuar.</string>
+    <string name="no_active_glympses">Sem Glympses ativos</string>
+    <string name="no_network_connection">Sem conexão com a rede.</string>
+    <string name="rate_limited">O limite de tentativas de acesso ao Glympse foi atingido.</string>
+    <string name="remaining_details">Viewers: %1$d recentes, %2$d total</string>
+    <string name="remaining_title">Glympse: %1$s restantes</string>
+    <string name="remaining_title_glympse">Glympse</string>
+    <string name="reply_with_a_glympse">Responder com um Glympse?</string>
+    <string name="request_was_received">Você recebeu uma solicitação do Glympse</string>
+</resources>

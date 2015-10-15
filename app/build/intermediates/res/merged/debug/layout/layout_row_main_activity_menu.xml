@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="5sp"
+         android:layout_marginBottom="5sp"
+        android:layout_marginLeft="10sp"
+        android:weightSum="7"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_main_menu_item_icon"
+            android:layout_width="0dp"
+
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="5.2"
+            android:layout_marginLeft="20sp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_main_menu_item_title"
+
+                android:layout_width="fill_parent"
+
+                android:layout_gravity="center_vertical"
+                android:textSize="30sp"
+                android:text="@string/title_main_menu_received_list"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_main_menu_item_subtitle_text"
+                android:textColor="@android:color/darker_gray"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+
+                android:text="Some Text"/>
+            </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_main_menu_item_arrow"
+            android:layout_weight="0.8"
+            android:layout_width="0dp"
+            android:src="@drawable/right_arrow_smaller"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+</LinearLayout><!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/app/src/main/res/layout/layout_row_main_activity_menu.xml -->

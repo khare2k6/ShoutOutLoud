@@ -1,0 +1,197 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.parsetestapp.com.example.parsetestapp.ui.HelpCardActivity">
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:text="@string/title_activity_help_card"
+        android:layout_width="fill_parent"
+        android:textSize="35sp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+    <!-- Use below as horizontal line-->
+    <View
+        android:id="@+id/hoizontal_ruler"
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:layout_below="@id/tv_status"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@color/darkred"/>
+
+    <LinearLayout
+        android:id="@+id/layout_contact_container"
+        android:layout_marginTop="30dp"
+    android:layout_width="fill_parent"
+    android:layout_below="@id/tv_status"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/iv_contact_image"
+        android:layout_width="110sp"
+        android:src="@drawable/test"
+        android:layout_height="110sp" />
+        <LinearLayout
+            android:layout_marginLeft="30sp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="4"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_contact_name"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:text="@string/sample_name"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp" />
+
+            <TextView
+                android:id="@+id/tv_contact_im"
+                android:textSize="20sp"
+                android:text="@string/sample_im_id"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp" />
+            <TextView
+                android:id="@+id/tv_contact_number"
+                android:textSize="20sp"
+                android:text="@string/sample_number"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp" />
+            <TextView
+                android:id="@+id/tv_last_activity"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="@string/sample_activity"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp" />
+            </LinearLayout>
+    </LinearLayout>
+    <!-- Use below as horizontal line-->
+    <View
+
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="5sp"
+        android:layout_below="@id/layout_contact_container"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@color/darkred"/>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+        android:layout_marginTop="20sp"
+    android:layout_below="@id/layout_contact_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tableRowDriverName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:text="Driver's Name:"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:layout_marginLeft="10sp"
+            android:id="@+id/tv_driver_name"
+            android:text="@string/sample_driver_name"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+
+        <TableRow
+        android:id="@+id/tableRowDriverNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:text="Driver's Number:"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:layout_marginLeft="10sp"
+            android:id="@+id/tv_driver_num"
+            android:text="@string/sample_number"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+        <TableRow
+            android:id="@+id/tableRowCarNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Car's Number:"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:layout_marginLeft="10sp"
+                android:id="@+id/tv_car_num"
+                android:text="@string/sample_car_num"
+                android:textColor="@android:color/holo_red_dark"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:ellipsize="end"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRowCarMake"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Car's Make:"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:layout_marginLeft="10sp"
+                android:id="@+id/tv_car_make"
+                android:text="@string/sample_car_make"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+</TableLayout>
+  <LinearLayout
+      android:id="@+id/layout_container_buttons"
+      android:layout_below="@id/tableLayout1"
+      android:gravity="bottom"
+      android:layout_alignParentBottom="true"
+      android:layout_width="fill_parent"
+      android:orientation="horizontal"
+      android:weightSum="2"
+      android:layout_height="wrap_content">
+      <Button
+          android:id="@+id/btn_join_chat"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:text="@string/title_btn_join_chat"
+          android:background="@drawable/button_style_blue"
+          android:textColor="@android:color/white"
+          android:layout_height="wrap_content" />
+
+      <Button
+          android:id="@+id/btn_navigate_to_victim"
+          android:layout_width="0dp"
+          android:layout_marginLeft="@dimen/btn_left_margin"
+          android:layout_weight="1"
+          android:text="@string/title_btn_navigate_to_victim"
+          android:background="@drawable/button_style_blue"
+          android:textColor="@android:color/white"
+          android:layout_height="wrap_content" />
+      </LinearLayout>
+</RelativeLayout>

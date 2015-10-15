@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayout1"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <!-- 2 columns -->
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:text="Sender:"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:layout_marginLeft="10sp"
+            android:id="@+id/tv_received_request_sender"
+            android:text="@string/sample_car_make"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Near Location:"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:layout_marginLeft="10sp"
+                android:id="@+id/tv_received_request_senders_location"
+                android:text="@string/sample_car_make"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Expiry Time:"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:layout_marginLeft="10sp"
+                android:id="@+id/tv_received_request_expiry_time"
+                android:text="@string/sample_car_make"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_received_request_view_request"
+            android:text="@string/title_view"
+            android:background="@drawable/button_style_blue"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_received_request_delete_request"
+            android:layout_width="0dp"
+            android:layout_marginLeft="@dimen/btn_left_margin"
+            android:layout_weight="1"
+            android:text="@string/title_Delete"
+            android:background="@drawable/button_style_blue"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+</LinearLayout>

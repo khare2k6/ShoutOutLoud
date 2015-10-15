@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="Theme.GlympseBase" parent="android:Theme.Holo.Light.DarkActionBar">
+    </style>
+
+    <style name="Theme.Glympse" parent="Theme.Glympse14">
+    </style>
+
+    <style name="Theme.Glympse14" parent="Theme.Glympse11">
+    </style>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="glympse_canned_messages">
+        <item>"Almost there!"</item>
+        <item>"Call me when you get a chance."</item>
+        <item>"Check this out!"</item>
+        <item>"Coffee?"</item>
+        <item>"Don't forget to pickup..."</item>
+        <item>"Good time for a call?"</item>
+        <item>"On my way!"</item>
+        <item>"Heading home now!"</item>
+        <item>"Here's where I'm hangin out tonight!"</item>
+        <item>"Here I am, where are you?"</item>
+        <item>"Here I am."</item>
+        <item>"Hey, look where I am!"</item>
+        <item>"I'll be right there."</item>
+        <item>"I'll meet you in the lobby."</item>
+        <item>"I'm almost there!"</item>
+        <item>"I'm falling in love with Glympse!"</item>
+        <item>"I'm stuck, can you help?"</item>
+        <item>"I forgot the salad, but I'm bringing the salami."</item>
+        <item>"I think I'm lost."</item>
+        <item>"In the neighborhood..."</item>
+        <item>"Just checking in."</item>
+        <item>"Just leaving now."</item>
+        <item>"Let's meet here."</item>
+        <item>"Made it home safe!"</item>
+        <item>"Meet here for lunch."</item>
+        <item>"Meet me when I get there."</item>
+        <item>"Need anything while I'm here?"</item>
+        <item>"Running late, start without me."</item>
+        <item>"Running late."</item>
+        <item>"See you in a bit."</item>
+        <item>"Stuck in traffic."</item>
+        <item>"Tag, you're it!"</item>
+        <item>"Wanna hook up?"</item>
+        <item>"Want anything to eat?"</item>
+        <item>"Watch me."</item>
+        <item>"What are you up to?"</item>
+    </string-array>
+
+</resources>

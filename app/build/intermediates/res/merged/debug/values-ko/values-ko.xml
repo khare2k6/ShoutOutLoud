@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/app/build/intermediates/exploded-aar/parseTestApp/glympseApi/unspecified/res/values-ko/values-ko.xml -->
+    <eat-comment/>
+    <plurals name="common_days_1d">
+<item quantity="one">%1$d 일</item>
+<item quantity="other">%1$d 일</item>
+</plurals>
+    <!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-ko/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"홈 탐색"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"위로 탐색"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"옵션 더보기"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"완료"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"공유 대상"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s와(과) 공유"</string>
+    <!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/app/build/intermediates/exploded-aar/parseTestApp/glympseApi/unspecified/res/values-ko/values-ko.xml -->
+    <eat-comment/>
+    <string name="arrived_at_destination">Glympse: 목적지에 도착</string>
+    <string name="click_to_expire">현재 Glympse를 마치려면 여기를 클릭하세요</string>
+    <string name="click_to_reply">여기를 클릭하여 답장하기...</string>
+    <string name="click_to_view">여기를 클릭하여 보기...</string>
+    <string name="glympse_was_received">Glympse를 수신하였습니다</string>
+    <string name="group_invitation_was_received">Glympse 그룹에 초대되었습니다</string>
+    <string name="low_battey_warning">배터리 부족으로 정지되었습니다. 클릭하여 재개하세요.</string>
+    <string name="no_active_glympses">활성화된 Glympse가 없음</string>
+    <string name="no_network_connection">네트워크 연결이 없음.</string>
+    <string name="rate_limited">Glympse 횟수 한도가 소진되었습니다.</string>
+    <string name="remaining_details">본 사용자: 최근 %1$d명, 총 %2$d명</string>
+    <string name="remaining_title">Glympse: %1$s 남음</string>
+    <string name="remaining_title_glympse">Glympse</string>
+    <string name="reply_with_a_glympse">Glympse로 답하시겠습니까?</string>
+    <string name="request_was_received">Glympse 요청을 받았습니다</string>
+</resources>

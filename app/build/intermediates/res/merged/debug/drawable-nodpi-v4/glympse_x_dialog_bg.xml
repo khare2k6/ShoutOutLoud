@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <gradient
+        android:type="linear"
+        android:angle="270"
+        android:startColor="@color/glympse_grey_237"
+        android:endColor="@color/glympse_grey_242"
+    />
+
+</shape>
+<!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/glympseApi/src/main/res/drawable-nodpi/glympse_x_dialog_bg.xml --><!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/app/build/intermediates/exploded-aar/parseTestApp/glympseApi/unspecified/res/drawable-nodpi-v4/glympse_x_dialog_bg.xml -->

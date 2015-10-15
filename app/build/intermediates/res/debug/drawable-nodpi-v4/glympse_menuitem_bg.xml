@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@color/glympse_list_pressed_holo_dark" />
+    <item                              android:drawable="@android:color/transparent"/>
+</selector>
+<!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/glympseApi/src/main/res/drawable-nodpi/glympse_menuitem_bg.xml --><!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/app/build/intermediates/exploded-aar/parseTestApp/glympseApi/unspecified/res/drawable-nodpi-v4/glympse_menuitem_bg.xml -->

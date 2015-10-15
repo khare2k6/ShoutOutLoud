@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/app/build/intermediates/exploded-aar/parseTestApp/glympseApi/unspecified/res/values-de/values-de.xml -->
+    <eat-comment/>
+    <plurals name="common_days_1d">
+<item quantity="one">%1$d Tag</item>
+<item quantity="other">%1$d Tagen</item>
+</plurals>
+    <!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/res/values-de/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alle ansehen"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Suchen"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Suchanfrage senden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
+    <!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/app/build/intermediates/exploded-aar/parseTestApp/glympseApi/unspecified/res/values-de/values-de.xml -->
+    <eat-comment/>
+    <string name="arrived_at_destination">Glympse: Am Zielort eingetroffen</string>
+    <string name="click_to_expire">Hier klicken, um Ihren Glympse zu beenden</string>
+    <string name="click_to_reply">Zum Antworten hier klicken...</string>
+    <string name="click_to_view">Zum Ansehen hier klicken...</string>
+    <string name="glympse_was_received">Sie haben einen Glympse erhalten</string>
+    <string name="group_invitation_was_received">Sie wurden in eine Glympse-Gruppe eingeladen</string>
+    <string name="low_battey_warning">Wegen niedrigen Batteriestands pausiert, zum Fortsetzen klicken.</string>
+    <string name="no_active_glympses">Keine aktiven Glympses</string>
+    <string name="no_network_connection">Keine Netzwerkverbindung.</string>
+    <string name="rate_limited">Glympse-Mengenlimit wurde erreicht.</string>
+    <string name="remaining_details">Betrachter: %1$d kürzlich, %2$d gesamt</string>
+    <string name="remaining_title">Glympse: %1$s verbleibend</string>
+    <string name="remaining_title_glympse">Glympse</string>
+    <string name="reply_with_a_glympse">Mit einem Glympse antworten?</string>
+    <string name="request_was_received">Sie haben eine Glympse-Anfrage erhalten</string>
+</resources>

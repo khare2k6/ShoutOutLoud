@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="@string/glympse_set_nickname_prompt"
+    />
+
+    <!-- there is a client side only name and there really is no max -->
+    <com.glympse.android.controls.EditText
+        android:id="@+id/glympse_edit_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:inputType="textCapWords|textPersonName"
+        android:hint="@string/glympse_signin_nickname_hint"
+        android:singleLine="true"
+        android:maxLength="64"
+    />
+
+</LinearLayout>

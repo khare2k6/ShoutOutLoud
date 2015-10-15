@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shout Out</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_find_near_me_title">Find near me</string>
+    <string name="btn_get_my_location_title">Find my location</string>
+    <string name="et_uname_title">User Name</string>
+    <string name="et_password_title">Password</string>
+    <string name="login_title">Log In</string>
+    <string name="btn_signup_title">Sign Up</string>
+    <string name="btn_submit_trip_info_title">Submit Trip Info</string>
+    <string name="btn_clear_trip_info_title">Clear last trip</string>
+    <string name="title_activity_help_card">Help Needed!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_btn_join_chat">Join Chat</string>
+    <!-- Pref Settings -->
+    <string name="preference_header_title">Settings</string>
+    <string name="preference_header_Summary">Set your personal information here</string>
+    <string name="pref_my_name_title">My Name</string>
+    <string name="pref_my_name_key">my_name</string>
+    <string name="pref_my_name_summary">Set your name here</string>
+    <string name="pref_my_num_number_title">My number</string>
+    <string name="pref_my_num_summary">Set you number here</string>
+    <string name="pref_my_num_key">my_num</string>
+    <string name="pref_my_car_num_title">My Car Number</string>
+    <string name="pref_my_car_num_summary">Set your car number here</string>
+    <string name="pref_my_car_num_key">my_car_num</string>
+    <string name="menusettings">Settings</string>
+    <string name="menu_add_trip">Add Trip</string>
+    <string name="menu_help_card">Help Card</string>
+    <string name="menu_new_trip">New Trip</string>
+    <string name="menu_see_chat">See Chat</string>
+    <string name="pref_my_car_make_title">My Car Model</string>
+    <string name="pref_my_car_make_summary">Set your car make and model here</string>
+    <string name="pref_my_car_make_key">my_car_make</string>
+    <string name="pref_my_email_title">Email</string>
+    <string name="pref_my_email_summary">Set your email/ImId here</string>
+    <string name="pref_my_email_key">my_email</string>
+    <string name="title_Delete">Delete</string>
+    <string name="title_view">View</string>
+    <string name="title_empty">Empty</string>
+    <string name="title_double_dash">--</string>
+    <string name="title_expire">Expire</string>
+    <string name="title_send_again">Resend</string>
+    <string name="title_send_request">Send Req</string>
+    <string name="title_sent_requests">Sent Help Requests</string>
+    <string name="title_active">Active</string>
+    <string name="title_main_menu_received_list">Inbox</string>
+    <string name="title_main_menu_received_list_subtitle">Help Requests Received from others</string>
+    <string name="title_main_menu_sent_list">Outbox</string>
+    <string name="title_main_menu_sent_list_subtitle">Trips OR currently active help request sent by you</string>
+    <string name="title_main_menu_locate_me">Locate Me</string>
+    <string name="title_main_menu_locate_me_subtitle">Find my current Location</string>
+    <string name="title_main_menu_settings">Settings</string>
+    <string name="title_main_menu_settings_subtitle">Set personal details here</string>
+    <string name="title_cb_self_driven">I am Driving</string>
+    <string name="title_btn_navigate_to_victim">Navigate me</string>
+    <string name="sample_name">John Mathew</string>
+    <string name="sample_number">9893098930</string>
+    <string name="sample_im_id">john_m@gmail.com</string>
+    <string name="sample_activity">Boarded Cab</string>
+    <string name="sample_driver_name">Ramesh R</string>
+    <string name="sample_car_num">KA 53 MA 1234</string>
+    <string name="sample_car_make">Meru, Dzire</string>
+    <string name="sample_source">Marathalli</string>
+    <string name="title_activity_trip_information">Trip Information</string>
+    <string name="title_activity_sub_menu">Shout Out Loud</string>
+    <string name="title_activity_chat_window">Chat Window</string>
+
+</resources>

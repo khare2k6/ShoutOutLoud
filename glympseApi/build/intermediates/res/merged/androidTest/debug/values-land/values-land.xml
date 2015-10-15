@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/glympseApi/build/intermediates/bundles/debug/res/values-land/values-land.xml -->
+    <eat-comment/>
+    <dimen name="glympse_legacy_title_height">40dp</dimen>
+</resources>

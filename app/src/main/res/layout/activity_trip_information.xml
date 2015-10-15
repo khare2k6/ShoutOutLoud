@@ -1,0 +1,208 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.parsetestapp.com.example.parsetestapp.ui.TripInformationActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:text="@string/title_activity_trip_information"
+        android:layout_width="fill_parent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+    <!-- Use below as horizontal line-->
+    <View
+    android:id="@+id/hoizontal_ruler"
+    android:layout_marginTop="5sp"
+    android:layout_marginBottom="5sp"
+    android:layout_below="@id/tv_title"
+    android:layout_width="fill_parent"
+    android:layout_height="2dip"
+    android:background="@color/darkred"/>
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayout1"
+        android:layout_marginTop="5sp"
+        android:layout_below="@id/hoizontal_ruler"
+        android:layout_width="fill_parent"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:layout_height="wrap_content">
+
+    <!-- 2 columns -->
+    <TableRow
+        android:id="@+id/tripTableRowSourceName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+
+        <TextView
+            android:text="Source * :"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:layout_marginLeft="10sp"
+            android:id="@+id/et_source"
+            android:hint="@string/sample_source"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </TableRow>
+        <TableRow
+            android:id="@+id/tripTableRowDestinationName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Destination *:"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:layout_marginLeft="10sp"
+                android:id="@+id/et_Destination"
+                android:hint="@string/sample_source"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tripTableRowSelfDriven"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+    <Spinner
+        android:id="@+id/spn_activity">
+
+    </Spinner>
+           <CheckBox
+               android:id="@+id/cb_self_driven"
+               android:textSize="15sp"
+               android:textStyle="bold"
+               android:text="@string/title_cb_self_driven"/>
+        </TableRow>
+        <View
+            android:layout_marginTop="5sp"
+            android:layout_marginBottom="5sp"
+            android:layout_below="@id/tv_title"
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="@color/darkred"/>
+        <TableRow
+            android:id="@+id/tripTableRowDriverName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Driver's Name:"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:layout_marginLeft="10sp"
+                android:id="@+id/et_driver_name"
+                android:hint="@string/sample_driver_name"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tripTableRowDriverNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Driver's Number:"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:layout_marginLeft="10sp"
+                android:id="@+id/et_driver_num"
+                android:hint="@string/sample_number"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tripTableRowCabNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Cab's Number:"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:layout_marginLeft="10sp"
+                android:id="@+id/et_cab_num"
+                android:hint="@string/sample_car_num"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tripTableRowCabMakeModel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip" >
+
+            <TextView
+                android:text="Car Make:"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:layout_marginLeft="10sp"
+                android:id="@+id/et_cab_make"
+                android:hint="@string/sample_car_make"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </TableRow>
+
+    </TableLayout>
+
+    <!--<View
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:layout_below="@id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@android:color/background_dark"/>-->
+    <LinearLayout
+        android:id="@+id/layout_button_container"
+        android:layout_below="@id/tableLayout1"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:visibility="gone"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_clear_trip_info"
+            android:text="@string/btn_clear_trip_info_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_submit_trip_info"
+            android:text="@string/btn_submit_trip_info_title"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    >
+
+    <com.glympse.android.kit.send.controls.Photo
+        android:id="@+id/glympse_photo"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_vertical"
+        android:itemPadding="4dp"
+        android:background="@drawable/glympse_thumb_container"
+    />
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/glympse_text_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="15dp"
+            android:textColor="#FF000000"
+            android:textStyle="bold"
+            android:ellipsize="marquee"
+        />
+
+        <TextView
+            android:id="@+id/glympse_text_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:singleLine="true"
+            android:textSize="14dp"
+            android:textColor="#FF636565"
+            android:textStyle="normal"
+            android:ellipsize="marquee"
+        />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/glympse_image_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/glympse_people_picker_check_normal"
+        android:visibility="gone"
+    />
+
+</LinearLayout>

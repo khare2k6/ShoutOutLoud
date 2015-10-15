@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/glympse_row_even"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/glympse_x_search_bar_bg"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        >
+
+        <!-- there is no message max on the server -->
+        <com.glympse.android.controls.ClearableEditText
+            android:id="@+id/glympse_cet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7.5dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="6dp"
+            android:imeOptions="actionDone"
+            android:selectAllOnFocus="true"
+            android:hint="@string/glympse_messages_hint"
+            android:inputType="textMultiLine|textCapSentences|textAutoCorrect|textAutoComplete"
+            android:gravity="top"
+            android:maxLines="7"
+            android:maxLength="1000"
+        />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/glympse_list_messages"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1.0"
+    />
+
+</LinearLayout>

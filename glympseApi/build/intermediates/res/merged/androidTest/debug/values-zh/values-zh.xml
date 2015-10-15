@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/glympseApi/build/intermediates/bundles/debug/res/values-zh/values-zh.xml -->
+    <eat-comment/>
+    <plurals name="common_days_1d">
+<item quantity="one">%1$d 天</item>
+<item quantity="other">%1$d 天</item>
+</plurals>
+    <string name="arrived_at_destination">Glympse：已到达目的地</string>
+    <string name="click_to_expire">单击此处使Glympse过期</string>
+    <string name="click_to_reply">单击此处答复……</string>
+    <string name="click_to_view">单击此处查看……</string>
+    <string name="glympse_was_received">您已收到Glympse</string>
+    <string name="group_invitation_was_received">您已受邀加入 Glympse 群</string>
+    <string name="low_battey_warning">已因为电池电量不足而暂停，单击即可继续。</string>
+    <string name="no_active_glympses">没有正在进行的Glympse</string>
+    <string name="no_network_connection">无网络连接。</string>
+    <string name="rate_limited">已达到Glympse频率上限。</string>
+    <string name="remaining_details">查看者数量：最近查看的有 %1$d 个，总共有 %2$d 个</string>
+    <string name="remaining_title">Glympse：还有 %1$s</string>
+    <string name="remaining_title_glympse">Glympse</string>
+    <string name="reply_with_a_glympse">使用 Glympse 回复？</string>
+    <string name="request_was_received">您已收到分享请求</string>
+</resources>

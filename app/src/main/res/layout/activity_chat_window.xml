@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.parsetestapp.com.example.parsetestapp.ui.ChatWindowActivity">
+
+/>
+   <!-- <LinearLayout
+        android:id="@+id/container_empty_chat_window"
+        android:layout_width="fill_parent"
+        android:visibility="gone"
+        android:layout_height="fill_parent">
+        <TextView
+            android:layout_width="fill_parent"
+            android:text="No Active Chat"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content" />
+        </LinearLayout>-->
+    <!--<LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:id="@+id/container_chat_layout"
+        android:layout_height="wrap_content">-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:id="@+id/tv_status_chat_window"
+        android:text="Empty"
+        android:gravity="center"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:weightSum="4"
+
+        android:id="@+id/container_chat_buttons"
+        android:layout_alignParentBottom="true"
+
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_chat_text"
+            android:layout_weight="3"
+            android:layout_gravity="bottom"
+            android:hint="Chat message here"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_send_chat"
+            android:layout_weight="1"
+            android:text="Send"
+            android:background="@drawable/button_style_blue"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+<ListView
+    android:layout_width="fill_parent"
+    android:id="@+id/lv_chat_msgs"
+    android:layout_below="@id/tv_status_chat_window"
+    android:layout_marginBottom="10sp"
+    android:layout_above="@id/container_chat_buttons"
+    android:stackFromBottom="true"
+    android:transcriptMode="alwaysScroll"
+    android:layout_height="wrap_content"/>
+    <View
+        android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"
+        android:layout_below="@id/lv_chat_msgs"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_above="@id/container_chat_buttons"
+        android:background="@android:color/background_dark"/>
+
+</RelativeLayout>

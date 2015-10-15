@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="glympse_send_orange">#FFF68817</color> <!-- 246, 136, 67 = F6, 88, 17 -->
+    <color name="glympse_configurator_bg">#FFE6E6E6</color> <!-- 230, 230, 230 = E6, E6, E6 -->
+    <color name="glympse_disabled_orange_button">#BD6F22</color>
+</resources>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 
+Locale: "zh"
+Project: "ClientAPI"
+Revision: 
+Generated: 2014-06-30T19:09:52.3127313Z
+Copyright (c) 2013 Glympse Inc. All rights reserved.
+-->
+
+<!-- 
+Guid: 7bce000f-5ce8-461a-9b19-8713403060a2
+Context: The formal name for the application
+-->
+<string name="remaining_title_glympse">Glympse</string>
+
+<!-- 
+Guid: eafef9f7-9ad1-401e-9e3a-af749a4bb833
+Context: The resulting strings are used to build a phrase like "1 day ago" or "2 days ago".
+Example: "1 day or 1 days"
+-->
+<plurals name="common_days_1d">
+<item quantity="one">%1$d 天</item>
+<item quantity="other">%1$d 天</item>
+</plurals>
+
+<!-- 
+Guid: 1eebadf4-d53e-426a-81ee-04561c484401
+Context: Displayed when you have reached your expected location
+-->
+<string name="arrived_at_destination">Glympse：已到达目的地</string>
+
+<!-- 
+Guid: 34beedb8-6adb-4a34-be16-10e507f1f8fc
+Context: Used to de-activate a current Glympse in progress.  Will stop the current location sharing.
+-->
+<string name="click_to_expire">单击此处使Glympse过期</string>
+
+<!-- 
+Guid: 8adb5e0e-0f28-41b1-9a6a-6478218821a4
+Context: Notification when another user has sent you a Glympse of their location.
+-->
+<string name="glympse_was_received">您已收到Glympse</string>
+
+<!-- 
+Guid: 3d4e4586-b765-4ca8-8e90-1306674a9797
+Context: Viewing something that has been received.
+-->
+<string name="click_to_view">单击此处查看……</string>
+
+<!-- 
+Guid: a17434f5-638b-4b13-b386-0b3114ddfe20
+Context: Notification when another user invites you to their Glympse group and would like you to join.
+-->
+<string name="group_invitation_was_received">您已受邀加入 Glympse 群</string>
+
+<!-- 
+Guid: 5b554ae4-785c-4237-9206-1c33d8be7233
+Context: Notification when a Glympse request is sent to you by another user.
+-->
+<string name="request_was_received">您已收到分享请求</string>
+
+<!-- 
+Guid: 37dccee2-2b15-4cd9-a512-ae77819b43fd
+Context: Replies to a message that has been received
+-->
+<string name="click_to_reply">单击此处答复……</string>
+
+<!-- 
+Guid: acff0add-e691-427e-9ac0-2104eea1b995
+Context: Displays time remaining of the current Glympse
+Example: "Glympse: 10 min remaining"
+-->
+<string name="remaining_title">Glympse：还有 %1$s</string>
+
+<!-- 
+Guid: 2858fd17-9f88-4742-a6c5-e930a9bf01e2
+Context: 
+Example: "Viewers: 2 recent, 10 total"
+-->
+<string name="remaining_details">查看者数量：最近查看的有 %1$d 个，总共有 %2$d 个</string>
+
+<!-- 
+Guid: 06ae3090-8768-4615-aa6b-6a72184182f0
+Context: 
+-->
+<string name="no_network_connection">无网络连接。</string>
+
+<!-- 
+Guid: 99138aca-fc9a-46c3-b589-53bd71b07e17
+Context: Glympse will automatically pause service when battery level drops below a certain amount.  Clicking this notification will resume service.
+-->
+<string name="low_battey_warning">已因为电池电量不足而暂停，单击即可继续。</string>
+
+<!-- 
+Guid: afecd1d3-a796-4048-bfcf-7d4c137889cc
+Context: Text displayed when there are no current Glympses in progress
+-->
+<string name="no_active_glympses">没有正在进行的Glympse</string>
+
+<!-- 
+Guid: c74f369f-8377-4e87-8347-79c907b31e82
+Context: Shown when the amount of access attempts has been reached.  The user can no longer use the service for a temporary time period.
+-->
+<string name="rate_limited">已达到Glympse频率上限。</string>
+
+<!-- 
+Guid: adee910e-0093-4ef3-9510-0a3ee07c5c32
+Context: Label that asks the user if they want to reply with a Glympse to a person that is asking where they are.
+-->
+<string name="reply_with_a_glympse">使用 Glympse 回复？</string>
+
+
+</resources>

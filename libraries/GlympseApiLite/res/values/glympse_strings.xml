@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="glympse_timer_hour">hour</string>
+    <string name="glympse_timer_hours">hours</string>
+    <string name="glympse_timer_minute">minute</string>
+    <string name="glympse_timer_minutes">minutes</string>
+    <string name="glympse_timer_check_in">check in</string>
+    <string name="glympse_timer_expire_now">expire now</string>
+    <string name="glympse_timer_slide_to_set">slide to set</string>
+
+    <string name="glympse_time_picker_expires_at">expires at {0}</string>
+    <string name="glympse_time_picker_no_expire_time">choose a duration</string>
+    <string name="glympse_time_picker_button">confirm</string>
+
+</resources>

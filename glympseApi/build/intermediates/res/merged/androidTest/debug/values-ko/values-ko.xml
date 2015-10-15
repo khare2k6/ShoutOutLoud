@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/glympseApi/build/intermediates/bundles/debug/res/values-ko/values-ko.xml -->
+    <eat-comment/>
+    <plurals name="common_days_1d">
+<item quantity="one">%1$d 일</item>
+<item quantity="other">%1$d 일</item>
+</plurals>
+    <string name="arrived_at_destination">Glympse: 목적지에 도착</string>
+    <string name="click_to_expire">현재 Glympse를 마치려면 여기를 클릭하세요</string>
+    <string name="click_to_reply">여기를 클릭하여 답장하기...</string>
+    <string name="click_to_view">여기를 클릭하여 보기...</string>
+    <string name="glympse_was_received">Glympse를 수신하였습니다</string>
+    <string name="group_invitation_was_received">Glympse 그룹에 초대되었습니다</string>
+    <string name="low_battey_warning">배터리 부족으로 정지되었습니다. 클릭하여 재개하세요.</string>
+    <string name="no_active_glympses">활성화된 Glympse가 없음</string>
+    <string name="no_network_connection">네트워크 연결이 없음.</string>
+    <string name="rate_limited">Glympse 횟수 한도가 소진되었습니다.</string>
+    <string name="remaining_details">본 사용자: 최근 %1$d명, 총 %2$d명</string>
+    <string name="remaining_title">Glympse: %1$s 남음</string>
+    <string name="remaining_title_glympse">Glympse</string>
+    <string name="reply_with_a_glympse">Glympse로 답하시겠습니까?</string>
+    <string name="request_was_received">Glympse 요청을 받았습니다</string>
+</resources>

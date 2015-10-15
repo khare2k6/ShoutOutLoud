@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/tv_received_request_list_status"
+        android:layout_marginTop="30sp"
+        android:textSize="30sp"
+        android:layout_width="fill_parent"
+        android:text="@string/title_empty"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/container_received_requests"
+        android:visibility="visible"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_title"
+            android:text="@string/title_main_menu_received_list"
+            android:gravity="center_horizontal"
+            android:background="@color/darkred"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="10sp"
+            android:layout_height="wrap_content" />
+        <ListView
+            android:id="@+id/lv_received_request_list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parsetestapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.example.parsetestapp.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.parsetestapp.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:name=".ParseApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/temp_logo_512_512"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name=".com.example.parsetestapp.ui.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".com.example.parsetestapp.ui.PrefActivity" />
+        <activity android:name=".com.example.parsetestapp.ui.MainActivity" />
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver android:name="com.parse.ParseBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <!-- IMPORTANT: Change "com.parse.tutorials.pushnotifications" to match your app's package name. -->
+                <category android:name="com.example.parsetestapp" />
+            </intent-filter>
+        </receiver>
+        <!-- normal receiver of parse android:name="com.parse.ParsePushBroadcastReceiver" -->
+
+        <receiver
+            android:name=".com.example.parsetestapp.com.example.parsetestapp.notification.receiver.NotificationReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".com.example.parsetestapp.ui.HelpCardActivity"
+            android:label="@string/title_activity_help_card" >
+        </activity>
+        <activity
+            android:name=".com.example.parsetestapp.ui.TripInformationActivity"
+            android:label="@string/title_activity_trip_information" >
+        </activity>
+        <!-- For glympse -->
+        <service
+            android:name="com.glympse.android.hal.GlympseService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="GlympseApiService" />
+
+        <receiver
+            android:name="com.glympse.android.hal.AuthReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.glympse.android.hal.auth.REQUEST" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.glympse.android.kit.send.GlympseSendWizard"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" >
+        </activity>
+        <activity
+            android:name=".com.example.parsetestapp.ui.SubMenuActivity"
+            android:label="@string/title_activity_sub_menu" >
+        </activity>
+        <activity
+            android:name=".com.example.parsetestapp.ui.ChatWindowActivity"
+            android:label="@string/title_activity_chat_window" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:parseTestApp="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:id="@+id/menu_add_trip"
+        android:orderInCategory="100"
+        android:showAsAction="withText|always"
+        parseTestApp:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/menu_add_trip"/>
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/glympseApi/src/main/res/values-port/glympse_dimens.xml -->
+    <eat-comment/>
+    <dimen name="glympse_legacy_title_height">48dp</dimen>
+</resources>

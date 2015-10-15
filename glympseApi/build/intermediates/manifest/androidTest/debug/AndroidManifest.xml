@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.glympse.android.api.test" >
+
+    <uses-sdk
+        android:minSdkVersion="5"
+        android:targetSdkVersion="19" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for com.glympse.android.api.test"
+        android:targetPackage="com.glympse.android.api.test" />
+    <!-- Required permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+
+        <service
+            android:name="com.glympse.android.hal.GlympseService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="GlympseApiService" >
+        </service>
+    </application>
+
+</manifest>

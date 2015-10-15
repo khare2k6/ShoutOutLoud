@@ -1,0 +1,8 @@
+C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\classes\debug
+C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\pre-dexed\debug\classes-4f890a29b213d797dccb9838332d2b9b627d7c60.jar
+C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-7b850a7c18c250f4457d0fe360796f1cb6d3fd03.jar
+C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\pre-dexed\debug\gson-2.3.1-cbc7ee44f1d20679cb57e130d21bc173cf01aa7d.jar
+C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\pre-dexed\debug\classes-b56c5339197bd5d0aa0837526ebeafb4c6c18cc8.jar
+C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-00f31d9d0b565acfa6ce26b971aa31a81fe55b2a.jar
+C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\pre-dexed\debug\Parse-1.8.0-76c27a37efe207e03831ba784915e9489ae6af50.jar
+C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\pre-dexed\debug\GlympseApiLite-6d7603948e0a7b4228aca15b3123004324862bf6.jar

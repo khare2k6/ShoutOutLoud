@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/glympse_text"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:textStyle="bold"
+    android:background="@color/glympse_x_contact_picker_header_bg"
+    android:textColor="@color/glympse_x_contact_picker_header_text"
+    android:shadowColor="#80000000"
+    android:shadowDx="0"
+    android:shadowDy="1"
+    android:shadowRadius="1"
+/>

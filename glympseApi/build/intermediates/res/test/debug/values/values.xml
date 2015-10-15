@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/glympseApi/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment/>
+    <string-array name="glympse_canned_messages">
+        <item>"Almost there!"</item>
+        <item>"Call me when you get a chance."</item>
+        <item>"Check this out!"</item>
+        <item>"Coffee?"</item>
+        <item>"Don't forget to pickup..."</item>
+        <item>"Good time for a call?"</item>
+        <item>"On my way!"</item>
+        <item>"Heading home now!"</item>
+        <item>"Here's where I'm hangin out tonight!"</item>
+        <item>"Here I am, where are you?"</item>
+        <item>"Here I am."</item>
+        <item>"Hey, look where I am!"</item>
+        <item>"I'll be right there."</item>
+        <item>"I'll meet you in the lobby."</item>
+        <item>"I'm almost there!"</item>
+        <item>"I'm falling in love with Glympse!"</item>
+        <item>"I'm stuck, can you help?"</item>
+        <item>"I forgot the salad, but I'm bringing the salami."</item>
+        <item>"I think I'm lost."</item>
+        <item>"In the neighborhood..."</item>
+        <item>"Just checking in."</item>
+        <item>"Just leaving now."</item>
+        <item>"Let's meet here."</item>
+        <item>"Made it home safe!"</item>
+        <item>"Meet here for lunch."</item>
+        <item>"Meet me when I get there."</item>
+        <item>"Need anything while I'm here?"</item>
+        <item>"Running late, start without me."</item>
+        <item>"Running late."</item>
+        <item>"See you in a bit."</item>
+        <item>"Stuck in traffic."</item>
+        <item>"Tag, you're it!"</item>
+        <item>"Wanna hook up?"</item>
+        <item>"Want anything to eat?"</item>
+        <item>"Watch me."</item>
+        <item>"What are you up to?"</item>
+    </string-array>
+    <color name="glympse_auto_active">#FFCF8617</color>
+    <color name="glympse_auto_button_text">#FFC0C0C0</color>
+    <color name="glympse_auto_disabled">#FF818181</color>
+    <color name="glympse_auto_normal">#FF3A3A3A</color>
+    <color name="glympse_blue_button_text_disabled">#3FFFFFFF</color>
+    <color name="glympse_blue_button_text_enabled">#FFFFFFFF</color>
+    <color name="glympse_blue_button_text_shadow_disabled">#FF174DA2</color>
+    <color name="glympse_blue_button_text_shadow_enabled">#80000000</color>
+    <color name="glympse_blue_text">#FF68A9EA</color>
+    <color name="glympse_configurator_bg">#FFE6E6E6</color>
+    <color name="glympse_configurator_prompt">#FFA6A8AB</color>
+    <color name="glympse_configurator_value">@color/glympse_grey_35</color>
+    <color name="glympse_contacts_tray_empty_text">@color/glympse_grey_128</color>
+    <color name="glympse_contacts_tray_populated_text">@color/glympse_orange_text</color>
+    <color name="glympse_disabled_orange_button">#BD6F22</color>
+    <color name="glympse_grey_102">#FF666666</color>
+    <color name="glympse_grey_128">#FF808080</color>
+    <color name="glympse_grey_148">#FF949494</color>
+    <color name="glympse_grey_153">#FF999999</color>
+    <color name="glympse_grey_179">#FFB3B3B3</color>
+    <color name="glympse_grey_188">#FFBCBCBC</color>
+    <color name="glympse_grey_204">#FFCCCCCC</color>
+    <color name="glympse_grey_237">#FFEDEDED</color>
+    <color name="glympse_grey_242">#FFF2F2F2</color>
+    <color name="glympse_grey_35">#FF232323</color>
+    <color name="glympse_grey_51">#FF333333</color>
+    <color name="glympse_grey_77">#FF4D4D4D</color>
+    <color name="glympse_heading_text">@color/glympse_grey_77</color>
+    <color name="glympse_history_add_15_button_text">@color/glympse_orange_text</color>
+    <color name="glympse_history_duration_text">@color/glympse_grey_179</color>
+    <color name="glympse_history_expire_delete_button_text">@color/glympse_magenta_text</color>
+    <color name="glympse_history_expired_text">@color/glympse_grey_153</color>
+    <color name="glympse_history_modify_resend_button_text">@color/glympse_grey_77</color>
+    <color name="glympse_history_recipient_text">@color/glympse_grey_35</color>
+    <color name="glympse_history_remaining_text">@color/glympse_orange_text</color>
+    <color name="glympse_history_status_text">@color/glympse_grey_102</color>
+    <color name="glympse_horizontal_rule">@color/glympse_grey_204</color>
+    <color name="glympse_list_pressed_holo_dark">#9933B5E5</color>
+    <color name="glympse_magenta_text">#FFDA1D5D</color>
+    <color name="glympse_map_group_banner_bg">#BF3057A5</color>
+    <color name="glympse_map_group_banner_text">#FFFFFFFF</color>
+    <color name="glympse_map_group_banner_text_shadow">#FF162C59</color>
+    <color name="glympse_map_user_active_sent_label">@color/glympse_orange_text</color>
+    <color name="glympse_map_user_active_sent_text">@color/glympse_orange_text</color>
+    <color name="glympse_map_user_active_speed_text">@color/glympse_grey_51</color>
+    <color name="glympse_map_user_eta_label">@color/glympse_grey_102</color>
+    <color name="glympse_map_user_eta_text">@color/glympse_grey_51</color>
+    <color name="glympse_map_user_expired_sent_label">@color/glympse_grey_102</color>
+    <color name="glympse_map_user_expired_sent_text">@color/glympse_grey_153</color>
+    <color name="glympse_map_user_expired_speed_text">@color/glympse_grey_153</color>
+    <color name="glympse_map_user_horizontal_divider">@color/glympse_grey_204</color>
+    <color name="glympse_map_user_leading_zeros">@color/glympse_grey_204</color>
+    <color name="glympse_map_user_name_text">@color/glympse_grey_51</color>
+    <color name="glympse_map_user_speed_label">@color/glympse_grey_102</color>
+    <color name="glympse_orange_button_text_disabled">#3FFFFFFF</color>
+    <color name="glympse_orange_button_text_enabled">#FFFFFFFF</color>
+    <color name="glympse_orange_button_text_shadow_disabled">#FFFEB503</color>
+    <color name="glympse_orange_button_text_shadow_enabled">#80000000</color>
+    <color name="glympse_orange_text">#FFFA8212</color>
+    <color name="glympse_row_even">#FFFAFAFA</color>
+    <color name="glympse_row_even_expired">#FFF2F2F2</color>
+    <color name="glympse_row_odd">#FFF1F1F1</color>
+    <color name="glympse_row_odd_expired">#FFE6E6E6</color>
+    <color name="glympse_send_orange">#FFF68817</color>
+    <color name="glympse_tick_color_primary">#FFF59C20</color>
+    <color name="glympse_tick_color_secondary">#FFB8B8B8</color>
+    <color name="glympse_white_button_text_disabled">#3F4D4D4D</color>
+    <color name="glympse_white_button_text_enabled">#FF4D4D4D</color>
+    <color name="glympse_white_button_text_shadow_disabled">#80FFFFFF</color>
+    <color name="glympse_white_button_text_shadow_enabled">#80FFFFFF</color>
+    <color name="glympse_window_text">#FF373737</color>
+    <color name="glympse_x_blueBadge">#E03057A5</color>
+    <color name="glympse_x_blueText">#FF3057A5</color>
+    <color name="glympse_x_contact_picker_header_bg">#FF203564</color>
+    <color name="glympse_x_contact_picker_header_text">#FFFFFFFF</color>
+    <color name="glympse_x_darkGrey">@color/glympse_grey_35</color>
+    <color name="glympse_x_editDisabledText">#FF7F7F7F</color>
+    <color name="glympse_x_editText">#FF373737</color>
+    <color name="glympse_x_editTextHighlight">#FF65A5E7</color>
+    <color name="glympse_x_editTextHint">#FFBDBDBD</color>
+    <color name="glympse_x_editTextLink">#FF373737</color>
+    <color name="glympse_x_lightGrey">@color/glympse_grey_179</color>
+    <color name="glympse_x_popupBackground">#E029325E</color>
+    <color name="glympse_x_redBadge">#E0E0457A</color>
+    <color name="glympse_x_windowBackground">#FFEFEFEF</color>
+    <declare-styleable name="GlympseBusyImage"><attr format="reference" name="glympseBusyImageStyle"/></declare-styleable>
+    <declare-styleable name="GlympseButton"><attr format="reference" name="glympseButtonStyle"/><attr name="android:endColor"/><attr name="android:shadowRadius"/><attr name="android:shadowDx"/><attr name="android:shadowDy"/></declare-styleable>
+    <declare-styleable name="GlympseCheckBox"><attr format="reference" name="glympseCheckBoxStyle"/></declare-styleable>
+    <declare-styleable name="GlympseClearableEditText"><attr format="reference" name="glympseClearableEditTextStyle"/></declare-styleable>
+    <declare-styleable name="GlympseEditText"><attr format="reference" name="glympseEditTextStyle"/></declare-styleable>
+    <declare-styleable name="GlympsePhoto"><attr format="reference" name="glympsePhotoStyle"/><attr name="android:src"/><attr name="android:itemPadding"/><attr name="android:text"/><attr name="android:panelBackground"/><attr name="android:textSize"/><attr name="android:textStyle"/><attr name="android:textColor"/><attr name="android:shadowColor"/><attr name="android:shadowRadius"/><attr name="android:shadowDx"/><attr name="android:shadowDy"/></declare-styleable>
+    <declare-styleable name="GlympseTextView"><attr format="reference" name="glympseTextViewStyle"/></declare-styleable>
+    <declare-styleable name="GlympseTimer"><attr format="reference" name="glympseTimerStyle"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="android:includeFontPadding"/></declare-styleable>
+    <declare-styleable name="GlympseToggleButton"><attr format="reference" name="glympseToggleButtonStyle"/></declare-styleable>
+    <dimen name="glympse_dialog_pad_bottom">20dp</dimen>
+    <dimen name="glympse_dialog_pad_left">20dp</dimen>
+    <dimen name="glympse_dialog_pad_right">20dp</dimen>
+    <dimen name="glympse_dialog_pad_top">20dp</dimen>
+    <dimen name="glympse_settings_pad_left">20dp</dimen>
+    <dimen name="glympse_settings_pad_right">20dp</dimen>
+    <item name="glympse_cet_edit" type="id"/>
+    <plurals name="common_days_1d">
+<item quantity="one">%1$d day</item>
+<item quantity="other">%1$d days</item>
+</plurals>
+    <string name="arrived_at_destination">Glympse: Arrived at destination</string>
+    <string name="click_to_expire">Click here to expire your Glympse</string>
+    <string name="click_to_reply">Click here to reply...</string>
+    <string name="click_to_view">Click here to view...</string>
+    <string name="glympse_api_version">Glympse Lite SDK v</string>
+    <string name="glympse_avatar_picker_title">Change Avatar</string>
+    <string name="glympse_configurator_actionbar_cancel">cancel</string>
+    <string name="glympse_configurator_button_info">Info</string>
+    <string name="glympse_configurator_button_settings">Settings</string>
+    <string name="glympse_configurator_destination_hint">Destination</string>
+    <string name="glympse_configurator_destination_no_name">Some Nameless Place</string>
+    <string name="glympse_configurator_destination_prompt">Going to</string>
+    <string name="glympse_configurator_duration_prompt">Watch me for</string>
+    <string name="glympse_configurator_menuitem_not_synced">Contacting Server</string>
+    <string name="glympse_configurator_menuitem_send">send</string>
+    <string name="glympse_configurator_menuitem_update">update</string>
+    <string name="glympse_configurator_message_hint">Message</string>
+    <string name="glympse_configurator_message_prompt">Saying</string>
+    <string name="glympse_configurator_optional">(optional)</string>
+    <string name="glympse_configurator_recipients_hint">Select Recipients</string>
+    <string name="glympse_configurator_recipients_prompt">Send to</string>
+    <string name="glympse_configurator_recipients_prompt_new">To:</string>
+    <string name="glympse_configurator_share_until">Share my location until</string>
+    <string name="glympse_contact_picker_header_contact_matches">All contact matches</string>
+    <string name="glympse_contact_picker_header_contacts">All contacts</string>
+    <string name="glympse_contact_picker_header_recently_contacted">Recently contacted</string>
+    <string name="glympse_contact_picker_header_recents">Recently used</string>
+    <string name="glympse_contacts_hint">search or enter new</string>
+    <string name="glympse_contacts_none">no contacts found</string>
+    <string name="glympse_contacts_searching">searching…</string>
+    <string name="glympse_copyright_line">Copyright 2013 Glympse Inc. All rights reserved</string>
+    <string name="glympse_destination_hint">search</string>
+    <string name="glympse_dialog_no_search_results_message">We were unable to locate this address on the map.</string>
+    <string name="glympse_dialog_no_search_results_title">No matches</string>
+    <string name="glympse_dialog_ok">OK</string>
+    <string name="glympse_dialog_search_results_title">Possible matches</string>
+    <string name="glympse_gps_preferred_button_send">Send</string>
+    <string name="glympse_gps_preferred_button_settings">Settings</string>
+    <string name="glympse_gps_preferred_prompt">It is recommended that you turn on GPS for best location accuracy. Without GPS enabled, people may see inaccurate or no location when viewing your Glympse.\n\nWould you like to go to Settings now and turn them on?</string>
+    <string name="glympse_gps_preferred_title">Enable GPS?</string>
+    <string name="glympse_import_from_camera">take picture</string>
+    <string name="glympse_import_from_gallery">import from gallery</string>
+    <string name="glympse_info_dialog_title">About Glympse</string>
+    <string name="glympse_info_glympse_is_about_location_sharing">Glympse is about sharing location &amp; ETA…</string>
+    <string name="glympse_info_mr_lebowski">Mr. Lebowski 69mph</string>
+    <string name="glympse_info_you_control_how_long">You control how long you share</string>
+    <string name="glympse_location_required_button">Go to Settings</string>
+    <string name="glympse_location_required_prompt">Glympse requires that you have at least one location service enabled in Android Settings before you can send a Glympse.\n\nIt is recommended that you turn on GPS for best accuracy. Turning on other location services in addition to GPS can provide even better accuracy and battery management.\n\nWould you like to go to Settings now and turn them on?</string>
+    <string name="glympse_location_required_title">Location Disabled</string>
+    <string name="glympse_messages_hint">new message</string>
+    <string name="glympse_no_contacts_selected">No contacts selected</string>
+    <string name="glympse_privacy_policy">Glympse Privacy Policy</string>
+    <string name="glympse_privacy_policy_link">http://glympse.com/privacy</string>
+    <string name="glympse_set_nickname_button">Save and send</string>
+    <string name="glympse_set_nickname_prompt">Enter the nickname you would like shown to others when you send a Glympse.</string>
+    <string name="glympse_set_nickname_title">Set your Nickname</string>
+    <string name="glympse_settings_broadcast_speed">Broadcast my speed</string>
+    <string name="glympse_settings_broadcast_speed_help">This setting controls whether or not to include your speed when sharing your location with others.</string>
+    <string name="glympse_settings_expire_on_arrival">Expire on arrival</string>
+    <string name="glympse_settings_expire_on_arrival_help">When this setting is enabled and you send a Glympse that has a destination, the application will automatically expire your Glympse when it detects that you have reached your destination.</string>
+    <string name="glympse_settings_general">General Settings</string>
+    <string name="glympse_settings_nickname_hint">enter your name</string>
+    <string name="glympse_signin_nickname_hint">enter your name</string>
+    <string name="glympse_tap_to_edit">tap to edit</string>
+    <string name="glympse_terms_of_use">Glympse Terms of Use</string>
+    <string name="glympse_terms_of_use_link">http://glympse.com/terms</string>
+    <string name="glympse_time_picker_button">confirm</string>
+    <string name="glympse_time_picker_expires_at">expires at {0}</string>
+    <string name="glympse_time_picker_no_expire_time">choose a duration</string>
+    <string name="glympse_timer_check_in">check in</string>
+    <string name="glympse_timer_expire_now">expire now</string>
+    <string name="glympse_timer_hour">hour</string>
+    <string name="glympse_timer_hours">hours</string>
+    <string name="glympse_timer_minute">minute</string>
+    <string name="glympse_timer_minutes">minutes</string>
+    <string name="glympse_timer_slide_to_set">slide to set</string>
+    <string name="glympse_was_received">You have received a Glympse</string>
+    <string name="glympse_x1_existing">Existing</string>
+    <string name="glympse_x1_selected">Selected</string>
+    <string name="group_invitation_was_received">You were invited a Glympse group</string>
+    <string name="low_battey_warning">Paused due to low battery, click to resume.</string>
+    <string name="no_active_glympses">No active Glympses</string>
+    <string name="no_network_connection">No network connection.</string>
+    <string name="rate_limited">Glympse rate limit has been reached.</string>
+    <string name="remaining_details">Viewers: %1$d recent, %2$d total</string>
+    <string name="remaining_title">Glympse: %1$s remaining</string>
+    <string name="remaining_title_glympse">Glympse</string>
+    <string name="reply_with_a_glympse">Reply with a Glympse?</string>
+    <string name="request_was_received">You have received a Glympse request</string>
+    <style name="Animations"/>
+    <style name="Animations.GrowFromBottom">
+        <item name="@android:windowEnterAnimation">@anim/glympse_grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/glympse_shrink_from_top</item>
+    </style>
+    <style name="Animations.GrowFromTop">
+        <item name="@android:windowEnterAnimation">@anim/glympse_grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/glympse_shrink_from_bottom</item>
+    </style>
+    <style name="GlympseAnimation" parent="@android:style/Animation.Activity"/>
+    <style name="GlympseBusyImage">
+    </style>
+    <style name="GlympseButton" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/glympse_button_white_small</item>
+        <item name="android:textColor">@color/glympse_white_button_text</item>
+        <item name="android:endColor">@color/glympse_white_button_text_shadow</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+<!--    <item name="android:focusable">true</item> -->
+<!--    <item name="android:clickable">true</item> -->
+    </style>
+    <style name="GlympseButton.BigBlue" parent="GlympseButton.Blue">
+        <item name="android:background">@drawable/glympse_button_blue_large</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="GlympseButton.BigOrange" parent="GlympseButton.Orange">
+        <item name="android:background">@drawable/glympse_button_orange_large</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="GlympseButton.Blue" parent="GlympseButton">
+        <item name="android:background">@drawable/glympse_button_blue_small</item>
+        <item name="android:textColor">@color/glympse_blue_button_text</item>
+        <item name="android:endColor">@color/glympse_blue_button_text_shadow</item>
+    </style>
+    <style name="GlympseButton.Orange" parent="GlympseButton">
+        <item name="android:background">@drawable/glympse_button_orange_small</item>
+        <item name="android:textColor">@color/glympse_orange_button_text</item>
+        <item name="android:endColor">@color/glympse_orange_button_text_shadow</item>
+    </style>
+    <style name="GlympseCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/glympse_window_text</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="GlympseClearableEditText" parent="GlympseEditText">
+        <item name="android:background">@drawable/glympse_edit_white_bg</item>
+    </style>
+    <style name="GlympseEditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/glympse_edit_white_bg</item>
+        <item name="android:textColor">@color/glympse_x_edit_text</item>
+        <item name="android:textColorHint">@color/glympse_x_editTextHint</item>
+        <item name="android:textColorHighlight">@color/glympse_x_editTextHighlight</item>
+        <item name="android:textColorLink">@color/glympse_x_editTextLink</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textCursorDrawable">@null</item>
+<!--    <item name="android:focusable">true</item> -->
+<!--    <item name="android:focusableInTouchMode">true</item> -->
+<!--    <item name="android:clickable">true</item> -->
+    </style>
+    <style name="GlympseImageButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="GlympseItemTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <style name="GlympseListView" parent="@android:style/Widget.ListView">
+<!--    <item name="android:listSelector">@null</item> -->
+<!--    <item name="android:fastScrollEnabled">true</item> -->
+        <item name="android:background">@color/glympse_row_even</item>
+        <item name="android:cacheColorHint">#FF808080</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0px</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:requiresFadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">10dp</item>
+    </style>
+    <style name="GlympsePhoto">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:background">@drawable/glympse_thumb_container</item>
+    </style>
+    <style name="GlympseScrollView" parent="@android:style/Widget.ScrollView">
+        <item name="android:background">@color/glympse_row_even</item>
+        <item name="android:cacheColorHint">#FF808080</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:requiresFadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">10dp</item>
+    </style>
+    <style name="GlympseTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/glympse_window_text</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+    <style name="GlympseTextView.DialogTitle" parent="GlympseTextView">
+        <item name="android:textColor">@color/glympse_heading_text</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+    <style name="GlympseTimer">
+    </style>
+    <style name="GlympseToggleButton" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/glympse_toggle_button</item>
+        <item name="android:textOn">on</item>
+        <item name="android:textOff">off</item>
+        <item name="android:disabledAlpha">0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/glympse_white_button_text</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="GlympseWhiteTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="GlympseWindowTitle">
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="GlympseWindowTitleBackground">
+        <item name="android:background">@drawable/glympse_actionbar_bg</item>
+    </style>
+    <style name="NotificationText">
+      <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="NotificationTitle">
+      <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+      <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.GlympseHolo.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:capitalize">characters</item>
+    </style>
+    <style name="Theme.Glympse" parent="Theme.Glympse4">
+    </style>
+    <style name="Theme.Glympse.Dialog" parent="Theme.Glympse">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="Theme.Glympse4" parent="Theme.GlympseBase">
+
+        <!-- Stock Android controls -->
+        <item name="android:checkboxStyle">@style/GlympseCheckBox</item>
+        <item name="android:buttonStyle">@style/GlympseButton</item>
+        <item name="android:editTextStyle">@style/GlympseEditText</item>
+        <item name="android:buttonStyleToggle">@style/GlympseToggleButton</item>
+        <item name="android:imageButtonStyle">@style/GlympseImageButton</item>
+        <item name="android:listViewStyle">@style/GlympseListView</item>
+        <item name="android:scrollViewStyle">@style/GlympseScrollView</item>
+        <item name="android:textViewStyle">@style/GlympseTextView</item>
+<!--    <item name="android:spinnerStyle">@style/GlympseSpinner</item> -->
+<!--    <item name="android:spinnerItemStyle">@style/GlympseSpinnerItem</item> -->
+
+        <!-- Custom controls -->
+        <item name="glympseTextViewStyle">@style/GlympseTextView</item>
+        <item name="glympseCheckBoxStyle">@style/GlympseCheckBox</item>
+        <item name="glympseButtonStyle">@style/GlympseButton</item>
+        <item name="glympseToggleButtonStyle">@style/GlympseToggleButton</item>
+        <item name="glympseEditTextStyle">@style/GlympseEditText</item>
+        <item name="glympseClearableEditTextStyle">@style/GlympseClearableEditText</item>
+        <item name="glympsePhotoStyle">@style/GlympsePhoto</item>
+        <item name="glympseTimerStyle">@style/GlympseTimer</item>
+        <item name="glympseBusyImageStyle">@style/GlympseBusyImage</item>
+
+        <!-- Global settings -->
+        <item name="android:windowBackground">@color/glympse_x_windowBackground</item>
+        <item name="android:windowTitleBackgroundStyle">@style/GlympseWindowTitleBackground</item>
+        <item name="android:windowTitleStyle">@style/GlympseWindowTitle</item>
+        <item name="android:windowTitleSize">@dimen/glympse_legacy_title_height</item>
+
+        <!-- This is a global setting, but seems to be the only way to set the ActionBar's group spinner and overflow menu text (fall through style if itemTextAppearance is not handled) -->
+        <item name="android:textColor">#FFFFFFFF</item>
+
+    </style>
+    <style name="Theme.GlympseBase" parent="android:Theme.Light">
+    </style>
+</resources>

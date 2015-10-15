@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id= "@+id/tv_status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/background_dark"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/hello_world" />
+
+    <Button android:id="@+id/btn_findNearMe"
+        android:layout_marginTop="50sp"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_find_near_me_title"/>
+
+    <Button android:id="@+id/btn_getMyLocation"
+        android:layout_marginTop="150sp"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_get_my_location_title"/>
+    <View
+        android:layout_marginTop="5sp"
+        android:id="@+id/hoizontal_ruler_main_screen"
+        android:layout_marginBottom="5sp"
+
+        android:layout_below="@id/tv_status"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="@color/darkred"/>
+    <ImageView
+        android:id="@+id/iv_main_image"
+        android:layout_below="@id/hoizontal_ruler_main_screen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/stalker_text"/>
+    <!--<TextView-->
+        <!--android:id="@+id/tv_image_main_title"-->
+        <!--android:layout_below="@id/hoizontal_ruler_main_screen"-->
+        <!--android:text="Help someone today"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<ImageView-->
+        <!--android:id="@+id/iv_main_image"-->
+        <!--android:layout_below="@id/hoizontal_ruler_main_screen"-->
+        <!--android:src="@drawable/stalker_text"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<ListView-->
+        <!--android:id="@+id/lv_menu_list"-->
+        <!--android:layout_below="@id/iv_main_image"-->
+        <!--android:background="@android:color/transparent"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"/>-->
+
+    <ListView
+        android:id="@+id/lv_menu_list"
+        android:layout_below="@id/iv_main_image"
+        android:layout_marginTop="10dip"
+        android:background="@android:color/transparent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/app/src/main/res/layout/layout_main.xml -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="glympse_dialog_pad_left">100dp</dimen>
+    <dimen name="glympse_dialog_pad_right">100dp</dimen>
+    <dimen name="glympse_dialog_pad_top">40dp</dimen>
+    <dimen name="glympse_dialog_pad_bottom">40dp</dimen>
+    <dimen name="glympse_settings_pad_left">100dp</dimen>
+    <dimen name="glympse_settings_pad_right">100dp</dimen>
+</resources>

@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <item
+        android:id="@+id/menu_preference"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/menusettings"/>
+
+    <item
+        android:id="@+id/menu_locate_me"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="@string/title_main_menu_locate_me"/>
+   <!-- <item
+        android:id="@+id/seeActiveChat"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="@string/menu_see_chat"/> -->
+   <!-- <item
+        android:id="@+id/help"
+        android:orderInCategory="102"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:title="@string/menu_help_card"/>-->
+    <!--<item-->
+        <!--android:id="@+id/scan"-->
+        <!--android:orderInCategory="101"-->
+        <!--android:showAsAction="always"-->
+        <!--android:title="@string/menustartscan"/>-->
+     <!--<item-->
+        <!--android:id="@+id/exit"-->
+        <!--android:orderInCategory="102"-->
+        <!--android:showAsAction="never"-->
+        <!--android:title="@string/menuexit"/>-->
+
+</menu>

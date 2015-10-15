@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="LOCATION_ALARM_INTERVAL">60000</integer>
+    <integer name="MID_NIGHT_ALARM_INTERVAL">86400000</integer>
+     <integer name="google_play_services_version">22</integer>
+
+    <integer name="card_flip_time_full">300</integer>
+    <integer name="card_flip_time_half">150</integer>
+
+</resources>

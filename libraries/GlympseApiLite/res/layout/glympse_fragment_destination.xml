@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/glympse_row_even"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/glympse_x_search_bar_bg"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        >
+
+        <!-- there is no max for group name on the server -->
+        <com.glympse.android.controls.ClearableEditText
+            android:id="@+id/glympse_cet"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7.5dp"
+            android:imeOptions="actionSearch"
+            android:inputType="textCapSentences|textAutoCorrect|textAutoComplete"
+            android:selectAllOnFocus="true"
+            android:hint="@string/glympse_destination_hint"
+            android:maxLength="500"
+        />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/glympse_list_destinations"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1.0"
+        android:fastScrollEnabled="true"
+    />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#FF000000"
+    />
+
+    <LinearLayout
+        android:id="@+id/glympse_layout_tray"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:background="#FFFFFFFF"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <!-- there is no max for group name on the server -->
+            <com.glympse.android.controls.EditText
+                android:id="@+id/glympse_text_name"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:paddingTop="7dp"
+                android:paddingBottom="6dp"
+                android:imeOptions="actionDone"
+                android:inputType="textMultiLine|textCapSentences|textAutoCorrect|textAutoComplete"
+                android:maxLines="2"
+                android:maxLength="500"
+            />
+
+            <!-- We have height="fill_parent" and left/right padding here to increase hit area -->
+            <ImageButton
+                android:id="@+id/glympse_button_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@null"
+                android:src="@drawable/glympse_button_magenta_mini_remove"
+            />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/glympse_text_address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="4dp"
+            android:textStyle="normal"
+            android:textSize="16dp"
+            android:singleLine="false"
+            android:textColor="#FF010101"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

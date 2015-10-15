@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/glympseApi/src/main/res/values-ja/glympse_api_strings.xml -->
+    <eat-comment/>
+    <plurals name="common_days_1d">
+<item quantity="one">%1$d 日間</item>
+<item quantity="other">%1$d 日間</item>
+</plurals>
+    <string name="arrived_at_destination">Glympse: 目的に到着しました</string>
+    <string name="click_to_expire">Glympseを無効にする場合はここをクリック</string>
+    <string name="click_to_reply">ここをクリックして返信...</string>
+    <string name="click_to_view">ここをクリックして表示...</string>
+    <string name="glympse_was_received">Glympse が届いています</string>
+    <string name="group_invitation_was_received">Glympse グループに招待されています</string>
+    <string name="low_battey_warning">バッテリー不足のため一時停止します。再開はここをクリック。</string>
+    <string name="no_active_glympses">稼働中のGlympse はありません</string>
+    <string name="no_network_connection">ネットワークに接続していません。</string>
+    <string name="rate_limited">Glympseの アクセスが限界に達しました。</string>
+    <string name="remaining_details">閲覧者: 最新 %1$d 名、総計 %2$d 名</string>
+    <string name="remaining_title">Glympse: 残り %1$s です</string>
+    <string name="remaining_title_glympse">Glympse</string>
+    <string name="reply_with_a_glympse">Glympseで返信しますか?</string>
+    <string name="request_was_received">Glympse リクエストが届いています</string>
+</resources>

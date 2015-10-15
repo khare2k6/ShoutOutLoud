@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="glympse_signin_nickname_hint">enter your name</string>
+
+    <string name="glympse_contacts_hint">search or enter new</string>
+    <string name="glympse_contacts_searching">searching…</string>
+    <string name="glympse_contacts_none">no contacts found</string>
+
+    <string name="glympse_dialog_search_results_title">Possible matches</string>
+
+    <string name="glympse_dialog_no_search_results_title">No matches</string>
+    <string name="glympse_dialog_no_search_results_message">We were unable to locate this address on the map.</string>
+
+    <string name="glympse_destination_hint">search</string>
+
+    <string name="glympse_messages_hint">new message</string>
+
+    <string name="glympse_tap_to_edit">tap to edit</string>
+    <string name="glympse_settings_general">General Settings</string>
+    <string name="glympse_settings_broadcast_speed">Broadcast my speed</string>
+    <string name="glympse_settings_expire_on_arrival">Expire on arrival</string>
+    <string name="glympse_settings_nickname_hint">enter your name</string>
+
+    <string name="glympse_settings_broadcast_speed_help">This setting controls whether or not to include your speed when sharing your location with others.</string>
+    <string name="glympse_settings_expire_on_arrival_help">When this setting is enabled and you send a Glympse that has a destination, the application will automatically expire your Glympse when it detects that you have reached your destination.</string>
+
+    <string name="glympse_import_from_camera">take picture</string>
+    <string name="glympse_import_from_gallery">import from gallery</string>
+
+    <string name="glympse_contact_picker_header_recents">Recently used</string>
+    <string name="glympse_contact_picker_header_recently_contacted">Recently contacted</string>
+    <string name="glympse_contact_picker_header_contact_matches">All contact matches</string>
+    <string name="glympse_contact_picker_header_contacts">All contacts</string>
+    <string name="glympse_no_contacts_selected">No contacts selected</string>
+    <string name="glympse_x1_selected">Selected</string>
+    <string name="glympse_x1_existing">Existing</string>
+
+    <string name="glympse_avatar_picker_title">Change Avatar</string>
+
+    <string name="glympse_set_nickname_title">Set your Nickname</string>
+    <string name="glympse_set_nickname_prompt">Enter the nickname you would like shown to others when you send a Glympse.</string>
+    <string name="glympse_set_nickname_button">Save and send</string>
+
+    <string name="glympse_configurator_recipients_prompt">Send to</string><!-- remove -->
+    <string name="glympse_configurator_recipients_hint">Select Recipients</string><!-- remove -->
+    <string name="glympse_configurator_recipients_prompt_new">To:</string>
+    <string name="glympse_configurator_duration_prompt">Watch me for</string>
+    <string name="glympse_configurator_message_prompt">Saying</string>
+    <string name="glympse_configurator_message_hint">Message</string>
+    <string name="glympse_configurator_destination_prompt">Going to</string>
+    <string name="glympse_configurator_destination_hint">Destination</string>
+    <string name="glympse_configurator_destination_no_name">Some Nameless Place</string>
+    <string name="glympse_configurator_optional">(optional)</string>
+    <string name="glympse_configurator_menuitem_send">send</string>
+    <string name="glympse_configurator_menuitem_update">update</string>
+    <string name="glympse_configurator_actionbar_cancel">cancel</string>
+    <string name="glympse_configurator_menuitem_not_synced">Contacting Server</string>
+    <string name="glympse_configurator_button_settings">Settings</string>
+    <string name="glympse_configurator_button_info">Info</string>
+    <string name="glympse_configurator_share_until">Share my location until</string>
+    
+    <string name="glympse_dialog_ok">OK</string>
+    <string name="glympse_info_dialog_title">About Glympse</string>
+    <string name="glympse_info_glympse_is_about_location_sharing">Glympse is about sharing location &amp; ETA…</string>
+    <string name="glympse_info_mr_lebowski">Mr. Lebowski 69mph</string>
+    <string name="glympse_info_you_control_how_long">You control how long you share</string>
+    <string name="glympse_api_version">Glympse Lite SDK v</string><!-- Do not translate -->
+    <string name="glympse_terms_of_use">Glympse Terms of Use</string>
+    <string name="glympse_terms_of_use_link">http://glympse.com/terms</string>
+    <string name="glympse_privacy_policy">Glympse Privacy Policy</string>
+    <string name="glympse_privacy_policy_link">http://glympse.com/privacy</string>
+    <string name="glympse_copyright_line">Copyright 2013 Glympse Inc. All rights reserved</string>
+
+    <string name="glympse_gps_preferred_title">Enable GPS?</string>
+    <string name="glympse_gps_preferred_prompt">It is recommended that you turn on GPS for best location accuracy. Without GPS enabled, people may see inaccurate or no location when viewing your Glympse.\n\nWould you like to go to Settings now and turn them on?</string>
+    <string name="glympse_gps_preferred_button_settings">Settings</string>
+    <string name="glympse_gps_preferred_button_send">Send</string>
+
+    <string name="glympse_location_required_title">Location Disabled</string>
+    <string name="glympse_location_required_prompt">Glympse requires that you have at least one location service enabled in Android Settings before you can send a Glympse.\n\nIt is recommended that you turn on GPS for best accuracy. Turning on other location services in addition to GPS can provide even better accuracy and battery management.\n\nWould you like to go to Settings now and turn them on?</string>
+    <string name="glympse_location_required_button">Go to Settings</string>
+
+</resources>

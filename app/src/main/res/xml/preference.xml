@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   
+  <EditTextPreference android:title="@string/pref_my_name_title"
+                      android:key="@string/pref_my_name_key"
+                      android:textStyle="bold"
+                      android:summary="@string/pref_my_name_summary"/>
+      
+  
+    <EditTextPreference android:title="@string/pref_my_num_number_title"
+                      android:key="@string/pref_my_num_key"
+                      android:inputType="number"
+                      android:textStyle="bold"
+                      android:summary="@string/pref_my_num_summary"/>
+
+    <EditTextPreference
+        android:title="@string/pref_my_email_title"
+        android:key="@string/pref_my_email_key"
+        android:textStyle="bold"
+        android:summary="@string/pref_my_email_summary"/>
+
+     <EditTextPreference android:title="@string/pref_my_car_num_title"
+                      android:key="@string/pref_my_car_num_key"
+                       android:textStyle="bold"
+                      android:summary="@string/pref_my_car_num_summary"/>
+   
+     <EditTextPreference android:title="@string/pref_my_car_make_title"
+                      android:key="@string/pref_my_car_make_key"
+                      android:textStyle="bold"
+                      android:summary="@string/pref_my_car_make_summary"/>
+     
+  <!--<CheckBoxPreference android:title="@string/pref_check_intrusion_title"
+                      android:defaultValue="false"
+                      android:summary="@string/pref_check_intrusion_Summary"
+                      android:key="@string/pref_check_intrusion_key" /> -->
+  
+
+</PreferenceScreen>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- http://developer.android.com/guide/topics/resources/drawable-resource.html#Shape -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- 33, 62, 133 = 21, 3E, 85 -->
+    <!-- 32, 40,  91 = 20, 28, 5B -->
+    <gradient
+        android:type="linear"
+        android:angle="270"
+        android:startColor="#FFFFFFFF"
+        android:endColor="#FFF5F5F5"
+    />
+
+</shape>

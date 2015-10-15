@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/glympse_configurator_bg"
+    >
+
+    <ScrollView
+        android:id="@+id/glympse_layout_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1.0"
+        android:fillViewport="true"
+        android:background="@color/glympse_configurator_bg"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+            
+      <!-- Recipients -->
+      
+      <LinearLayout
+          android:id="@+id/glympse_layout_recipients"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingLeft="12dp"
+          android:paddingRight="12dp"
+          android:paddingTop="6dp"
+          android:paddingBottom="6dp"
+          android:orientation="horizontal"
+          android:background="@android:color/white"
+          android:descendantFocusability="beforeDescendants"
+          android:focusableInTouchMode="true"
+          android:weightSum="1.0"
+          >
+          
+          <TextView 
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_margin="6dp"
+              android:textColor="@android:color/darker_gray"
+              android:text="@string/glympse_configurator_recipients_prompt_new"
+              android:layout_weight="0.10"
+              />
+          
+          <com.glympse.android.kit.send.controls.ContactPickerInline
+              android:id="@+id/glympse_contact_picker_inline"
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.75"
+              />
+          
+          <RelativeLayout 
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="0.15">
+              <ImageView 
+	              android:layout_width="wrap_content"
+	              android:layout_height="wrap_content"
+	              android:layout_marginLeft="6dp"
+	              android:layout_alignParentLeft="true"
+	              android:layout_alignParentBottom="true"
+	              android:background="@drawable/glympse_fs_people_picker"
+	              />
+              
+          </RelativeLayout>
+
+      </LinearLayout>
+
+      <ImageView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/glympse_configurator_divider"
+      />
+
+      <!-- DURATION -->
+
+      <RelativeLayout
+          android:id="@+id/glympse_layout_duration"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingLeft="12dp"
+          android:paddingRight="12dp"
+          android:layout_marginTop="6dp"
+          android:layout_marginBottom="6dp"
+          >
+          
+          <LinearLayout 
+              android:id="@+id/glympse_configurator_layout_expire_time"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:layout_alignParentTop="true"
+              android:gravity="center_horizontal"
+              android:orientation="horizontal"
+              >
+              <TextView 
+                  android:id="@+id/glympse_configurator_share_until"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/glympse_configurator_prompt"
+                  android:textSize="18sp"
+                  android:text="@string/glympse_configurator_share_until"
+                  />
+          </LinearLayout>
+          
+          <com.glympse.android.controls.GTimerView
+              android:id="@+id/glympse_configurator_time_picker"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:clickable="true"
+              android:layout_below="@+id/glympse_configurator_layout_expire_time"
+              android:paddingLeft="30dp"
+              android:paddingRight="30dp"
+              />
+
+	        <ImageView
+		        android:id="@+id/glympse_button_info"
+		        android:layout_width="40dp"
+		        android:layout_height="40dp"
+		        android:paddingRight="5dp"
+		        android:layout_marginBottom="10dp"
+		        android:layout_above="@+id/glympse_button_settings"
+		        android:layout_alignRight="@+id/glympse_button_settings"
+		        android:background="@drawable/glympse_fs_info"
+		    />
+		    <ImageView 
+		        android:id="@+id/glympse_button_settings"
+		        android:layout_width="40dp"
+		        android:layout_height="40dp"
+		        android:paddingRight="5dp"
+		        android:layout_alignParentRight="true"
+		        android:layout_alignBottom="@+id/glympse_configurator_time_picker"
+		        android:background="@drawable/glympse_fs_settings"
+		    />
+
+      </RelativeLayout>
+
+      <ImageView
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/glympse_configurator_divider"
+      />
+      
+            <!-- DESTINATION -->
+
+            <LinearLayout
+                android:id="@+id/glympse_layout_destination"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="6dp"
+                    android:src="@drawable/glympse_configurator_destination"
+                />
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="16dp"
+                    android:orientation="vertical"
+                    android:layout_weight="1.0"
+                    >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:singleLine="true"
+                        android:textColor="@color/glympse_configurator_prompt"
+                        android:text="@string/glympse_configurator_destination_prompt"
+                    />
+
+                    <TextView
+                        android:id="@+id/glympse_text_destination"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:singleLine="false"
+                        android:textColor="@color/glympse_configurator_value"
+                        android:text="@string/glympse_configurator_destination_hint"
+                    />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+	        <ImageView
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/glympse_configurator_divider"
+	        />
+
+      <!-- MESSAGE -->
+
+      <LinearLayout
+          android:id="@+id/glympse_layout_message"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:paddingLeft="12dp"
+          android:paddingRight="12dp"
+          android:layout_marginTop="6dp"
+          android:layout_marginBottom="6dp"
+          android:orientation="horizontal"
+          >
+
+          <ImageView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="top"
+              android:layout_marginTop="6dp"
+              android:src="@drawable/glympse_configurator_message"
+          />
+
+          <LinearLayout
+              android:layout_width="0px"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical"
+              android:layout_marginLeft="16dp"
+              android:orientation="vertical"
+              android:layout_weight="1.0"
+              >
+
+              <TextView
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="18sp"
+                  android:singleLine="true"
+                  android:textColor="@color/glympse_configurator_prompt"
+                  android:text="@string/glympse_configurator_message_prompt"
+              />
+
+              <TextView
+                  android:id="@+id/glympse_text_message"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="20sp"
+                  android:textStyle="bold"
+                  android:singleLine="false"
+                  android:textColor="@color/glympse_configurator_value"
+                  android:text="@string/glympse_configurator_message_hint"
+              />
+
+          </LinearLayout>
+
+      </LinearLayout>
+      
+     	<ImageView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/glympse_configurator_divider"
+        />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+    

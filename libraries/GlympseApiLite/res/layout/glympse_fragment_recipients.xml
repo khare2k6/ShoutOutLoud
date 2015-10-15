@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/glympse_x_search_bar_bg"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        >
+
+        <!-- max address length on server is 256 -->
+        <com.glympse.android.controls.ClearableEditText
+            android:id="@+id/glympse_cet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7.5dp"
+            android:imeOptions="actionDone"
+            android:selectAllOnFocus="true"
+            android:hint="@string/glympse_contacts_hint"
+            android:inputType="text"
+            android:maxLength="256"
+        />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1.0"
+        >
+
+        <TextView
+            android:id="@+id/glympse_text_empty"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:textColor="@color/glympse_grey_102"
+            android:visibility="gone"
+            android:text="@string/glympse_contacts_searching"
+        />
+
+        <com.glympse.android.kit.send.controls.ContactPicker
+            android:id="@+id/glympse_contact_picker"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fastScrollEnabled="true"
+        />
+
+        <FrameLayout
+            android:id="@+id/glympse_layout_overlay"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:src="@drawable/glympse_x_contacts_shadow"
+                android:scaleType="fitXY"
+            />
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/glympse_layout_added"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal"
+        android:background="@drawable/glympse_x_contacts_added_header_bg"
+        >
+
+        <TextView
+            android:id="@+id/glympse_text_added"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/glympse_contacts_tray_empty_text"
+            android:textSize="18dp"
+            android:textStyle="bold"
+        />
+
+       <ImageView
+            android:id="@+id/glympse_image_added_chevron"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/glympse_chevron_up"
+        />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/glympse_list_added"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    />
+
+</LinearLayout>

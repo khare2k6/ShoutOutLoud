@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- http://developer.android.com/reference/android/R.attr.html -->
+
+<resources>
+
+    <declare-styleable name="GlympsePhoto">
+        <attr name="glympsePhotoStyle" format="reference" />
+        <attr name="android:src" />
+        <attr name="android:itemPadding" />
+        <attr name="android:text" />
+        <attr name="android:panelBackground" />
+        <attr name="android:textSize" />
+        <attr name="android:textStyle" />
+        <attr name="android:textColor" />
+        <attr name="android:shadowColor" />
+        <attr name="android:shadowRadius" />
+        <attr name="android:shadowDx" />
+        <attr name="android:shadowDy" />
+    </declare-styleable>
+
+    <declare-styleable name="GlympseTimer">
+        <attr name="glympseTimerStyle" format="reference" />
+        <attr name="android:maxWidth" />
+        <attr name="android:maxHeight" />
+        <attr name="android:includeFontPadding" /> <!-- we use this to pass in a flag to control showing of tick numbers -->
+    </declare-styleable>
+
+    <declare-styleable name="GlympseClearableEditText">
+        <attr name="glympseClearableEditTextStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="GlympseTextView">
+        <attr name="glympseTextViewStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="GlympseCheckBox">
+        <attr name="glympseCheckBoxStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="GlympseButton">
+        <attr name="glympseButtonStyle" format="reference" />
+        <attr name="android:endColor" />    <!-- we use this to pass in a color selector for the shadow color since android:shadowColor only allows a single color -->
+        <attr name="android:shadowRadius" />
+        <attr name="android:shadowDx" />
+        <attr name="android:shadowDy" />
+    </declare-styleable>
+
+    <declare-styleable name="GlympseToggleButton">
+        <attr name="glympseToggleButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="GlympseEditText">
+        <attr name="glympseEditTextStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="GlympseBusyImage">
+        <attr name="glympseBusyImageStyle" format="reference" />
+    </declare-styleable>
+
+</resources>

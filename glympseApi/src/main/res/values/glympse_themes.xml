@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.GlympseBase" parent="android:Theme.Light">
+    </style>
+
+    <style name="Theme.Glympse" parent="Theme.Glympse4">
+    </style>
+
+    <style name="Theme.Glympse4" parent="Theme.GlympseBase">
+
+        <!-- Stock Android controls -->
+        <item name="android:checkboxStyle">@style/GlympseCheckBox</item>
+        <item name="android:buttonStyle">@style/GlympseButton</item>
+        <item name="android:editTextStyle">@style/GlympseEditText</item>
+        <item name="android:buttonStyleToggle">@style/GlympseToggleButton</item>
+        <item name="android:imageButtonStyle">@style/GlympseImageButton</item>
+        <item name="android:listViewStyle">@style/GlympseListView</item>
+        <item name="android:scrollViewStyle">@style/GlympseScrollView</item>
+        <item name="android:textViewStyle">@style/GlympseTextView</item>
+<!--    <item name="android:spinnerStyle">@style/GlympseSpinner</item> -->
+<!--    <item name="android:spinnerItemStyle">@style/GlympseSpinnerItem</item> -->
+
+        <!-- Custom controls -->
+        <item name="glympseTextViewStyle">@style/GlympseTextView</item>
+        <item name="glympseCheckBoxStyle">@style/GlympseCheckBox</item>
+        <item name="glympseButtonStyle">@style/GlympseButton</item>
+        <item name="glympseToggleButtonStyle">@style/GlympseToggleButton</item>
+        <item name="glympseEditTextStyle">@style/GlympseEditText</item>
+        <item name="glympseClearableEditTextStyle">@style/GlympseClearableEditText</item>
+        <item name="glympsePhotoStyle">@style/GlympsePhoto</item>
+        <item name="glympseTimerStyle">@style/GlympseTimer</item>
+        <item name="glympseBusyImageStyle">@style/GlympseBusyImage</item>
+
+        <!-- Global settings -->
+        <item name="android:windowBackground">@color/glympse_x_windowBackground</item>
+        <item name="android:windowTitleBackgroundStyle">@style/GlympseWindowTitleBackground</item>
+        <item name="android:windowTitleStyle">@style/GlympseWindowTitle</item>
+        <item name="android:windowTitleSize">@dimen/glympse_legacy_title_height</item>
+
+        <!-- This is a global setting, but seems to be the only way to set the ActionBar's group spinner and overflow menu text (fall through style if itemTextAppearance is not handled) -->
+        <item name="android:textColor">#FFFFFFFF</item>
+
+    </style>
+
+    <style name="Theme.Glympse.Dialog" parent="Theme.Glympse">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+</resources>

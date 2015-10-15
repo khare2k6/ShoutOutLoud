@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GlympseApiLite">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/GlympseApiLite.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

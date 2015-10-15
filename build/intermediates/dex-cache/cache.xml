@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\libs\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-7b850a7c18c250f4457d0fe360796f1cb6d3fd03.jar" />
+    </item>
+    <item
+        jar="C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\exploded-aar\parseTestApp\glympseApi\unspecified\jars\libs\GlympseApiLite.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e386dde3a47def620c7a19a5f8ff2279bc505e19">
+        <dex dex="C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\pre-dexed\debug\GlympseApiLite-e9a039bc849f320ab5e39bc75784047d2ff7b8ad.jar" />
+    </item>
+    <item
+        jar="C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\libs\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\pre-dexed\debug\gson-2.3.1-cbc7ee44f1d20679cb57e130d21bc173cf01aa7d.jar" />
+    </item>
+    <item
+        jar="C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\libs\Parse-1.8.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="61cf79e2775b882ac0ea32d60ea2dbbf6f245cea">
+        <dex dex="C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\pre-dexed\debug\Parse-1.8.0-76c27a37efe207e03831ba784915e9489ae6af50.jar" />
+    </item>
+    <item
+        jar="C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\exploded-aar\parseTestApp\glympseApi\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6fd7c4738609b7984487f728616ec46031202062">
+        <dex dex="C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\pre-dexed\debug\classes-2cc1552a21708795abfe159c995ea55271f7ea9c.jar" />
+    </item>
+    <item
+        jar="C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\pre-dexed\debug\classes-63a681ea0ad987fb6de1fa2904f4bdf485e694bf.jar" />
+    </item>
+    <item
+        jar="C:\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\akhare\AndroidStudioProjects\parseTestApp\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-00f31d9d0b565acfa6ce26b971aa31a81fe55b2a.jar" />
+    </item>
+
+</items>

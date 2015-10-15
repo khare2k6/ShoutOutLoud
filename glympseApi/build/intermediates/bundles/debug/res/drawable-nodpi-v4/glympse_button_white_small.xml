@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"  android:state_focused="true" android:drawable="@drawable/glympse_button_white_small_p1_f1" />
+    <item android:state_pressed="true"                               android:drawable="@drawable/glympse_button_white_small_p1_f0" />
+    <item                               android:state_focused="true" android:drawable="@drawable/glympse_button_white_small_p0_f1" />
+    <item                                                            android:drawable="@drawable/glympse_button_white_small_p0_f0" />
+</selector>
+<!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/glympseApi/src/main/res/drawable-nodpi/glympse_button_white_small.xml -->

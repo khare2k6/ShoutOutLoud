@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- http://developer.android.com/reference/android/R.attr.html -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="GlympseTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/glympse_window_text</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="GlympseWhiteTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="GlympseCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/glympse_window_text</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="GlympseScrollView" parent="@android:style/Widget.ScrollView">
+        <item name="android:background">@color/glympse_row_even</item>
+        <item name="android:cacheColorHint">#FF808080</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:requiresFadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">10dp</item>
+    </style>
+
+    <style name="GlympseListView" parent="@android:style/Widget.ListView">
+<!--    <item name="android:listSelector">@null</item> -->
+<!--    <item name="android:fastScrollEnabled">true</item> -->
+        <item name="android:background">@color/glympse_row_even</item>
+        <item name="android:cacheColorHint">#FF808080</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0px</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:requiresFadingEdge">vertical</item>
+        <item name="android:fadingEdgeLength">10dp</item>
+    </style>
+
+    <style name="GlympseTextView.DialogTitle" parent="GlympseTextView">
+        <item name="android:textColor">@color/glympse_heading_text</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="GlympseWindowTitleBackground">
+        <item name="android:background">@drawable/glympse_actionbar_bg</item>
+    </style>
+
+    <style name="GlympseWindowTitle">
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="GlympsePhoto">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:background">@drawable/glympse_thumb_container</item>
+    </style>
+
+    <style name="GlympseTimer">
+    </style>
+
+    <!-- This controls the context menu color on 4.0+ devices and the ActionBar overflow menu text  -->
+    <style name="GlympseItemTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="GlympseButton" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:background">@drawable/glympse_button_white_small</item>
+        <item name="android:textColor">@color/glympse_white_button_text</item>
+        <item name="android:endColor">@color/glympse_white_button_text_shadow</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+<!--    <item name="android:focusable">true</item> -->
+<!--    <item name="android:clickable">true</item> -->
+    </style>
+
+    <style name="GlympseButton.Blue" parent="GlympseButton">
+        <item name="android:background">@drawable/glympse_button_blue_small</item>
+        <item name="android:textColor">@color/glympse_blue_button_text</item>
+        <item name="android:endColor">@color/glympse_blue_button_text_shadow</item>
+    </style>
+
+    <style name="GlympseButton.Orange" parent="GlympseButton">
+        <item name="android:background">@drawable/glympse_button_orange_small</item>
+        <item name="android:textColor">@color/glympse_orange_button_text</item>
+        <item name="android:endColor">@color/glympse_orange_button_text_shadow</item>
+    </style>
+
+    <style name="GlympseButton.BigBlue" parent="GlympseButton.Blue">
+        <item name="android:background">@drawable/glympse_button_blue_large</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="GlympseButton.BigOrange" parent="GlympseButton.Orange">
+        <item name="android:background">@drawable/glympse_button_orange_large</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="GlympseImageButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="GlympseToggleButton" parent="@android:style/Widget.Button.Toggle">
+        <item name="android:background">@drawable/glympse_toggle_button</item>
+        <item name="android:textOn">on</item>
+        <item name="android:textOff">off</item>
+        <item name="android:disabledAlpha">0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/glympse_white_button_text</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <!-- setting "android:textCursorDrawable" to "@null" fixes white cursor issue -->
+    <style name="GlympseEditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/glympse_edit_white_bg</item>
+        <item name="android:textColor">@color/glympse_x_edit_text</item>
+        <item name="android:textColorHint">@color/glympse_x_editTextHint</item>
+        <item name="android:textColorHighlight">@color/glympse_x_editTextHighlight</item>
+        <item name="android:textColorLink">@color/glympse_x_editTextLink</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textCursorDrawable">@null</item>
+<!--    <item name="android:focusable">true</item> -->
+<!--    <item name="android:focusableInTouchMode">true</item> -->
+<!--    <item name="android:clickable">true</item> -->
+    </style>
+
+    <style name="GlympseClearableEditText" parent="GlympseEditText">
+        <item name="android:background">@drawable/glympse_edit_white_bg</item>
+    </style>
+
+    <style name="GlympseBusyImage">
+    </style>
+
+    <style name="GlympseAnimation" parent="@android:style/Animation.Activity" />
+
+    <style name="Animations" />
+
+    <style name="Animations.GrowFromBottom">
+        <item name="@android:windowEnterAnimation">@anim/glympse_grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/glympse_shrink_from_top</item>
+    </style>
+
+    <style name="Animations.GrowFromTop">
+        <item name="@android:windowEnterAnimation">@anim/glympse_grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/glympse_shrink_from_bottom</item>
+    </style>
+
+    <style name="TextAppearance.GlympseHolo.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:capitalize">characters</item>
+    </style>
+
+</resources>

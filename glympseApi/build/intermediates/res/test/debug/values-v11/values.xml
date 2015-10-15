@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/akhare/AndroidStudioProjects/parseTestApp/glympseApi/build/intermediates/bundles/debug/res/values-v11/values.xml -->
+    <eat-comment/>
+    <style name="Theme.Glympse" parent="Theme.Glympse11">
+    </style>
+    <style name="Theme.Glympse11" parent="Theme.Glympse4">
+        <item name="android:actionBarStyle">@style/Widget.Glympse.ActionBar</item>
+    </style>
+    <style name="Theme.GlympseBase" parent="android:Theme.Holo.Light">
+    </style>
+    <style name="Widget.Glympse.ActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:displayOptions">showHome|useLogo|homeAsUp</item>
+        <item name="android:background">@drawable/glympse_actionbar_bg</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+</resources>
